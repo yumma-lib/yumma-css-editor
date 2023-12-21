@@ -10,7 +10,7 @@ Realtime code editor for Yumma CSS based on [Monaco Editor](https://github.com/m
 - [Support](#support)
 
 ## Introduction
-Yumma CSS Editor is a powerful code editor based on Monaco Editor, the same code editor that powers [VS Code](https://github.com/microsoft/vscode). It features seamless integration with [Yumma CSS](https://github.com/yumma-lib/yumma-css), a multipurpose CSS library that offers a diverse range of utility classes and components.
+Yumma CSS Editor is based on Monaco Editor, the same code editor that powers [VS Code](https://github.com/microsoft/vscode). It features seamless integration with [Yumma CSS](https://github.com/yumma-lib/yumma-css), a multipurpose CSS library that offers a diverse range of utility classes and components.
 
 ## Features
 
