@@ -1,0 +1,20 @@
+* { 
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+.editor-container {
+  display: flex;
+  height: 100vh;
+}
+
+.editor-wrapper {
+  flex: 1;
+  overflow: hidden;
+}
+
+.preview-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+
