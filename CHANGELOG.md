@@ -9,3 +9,6 @@ All notable changes to the Yumma CSS Editor will be documented in this file.
 
 ## Changed
 - None
+
+## Fixed
+- None
