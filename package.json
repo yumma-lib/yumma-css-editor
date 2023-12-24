@@ -1,7 +1,7 @@
 {
   "name": "yumma-css-editor",
   "author": "Renildo Pereira",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",

@@ -12,3 +12,14 @@ All notable changes to the Yumma CSS Editor will be documented in this file.
 
 ## Fixed
 - None
+
+## v0.1.0
+
+## Added
+- New theme for the code editor
+
+## Changed
+- Improved responsiveness for mobile devices
+
+## Fixed
+- None
