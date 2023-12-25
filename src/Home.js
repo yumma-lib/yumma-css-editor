@@ -29,8 +29,8 @@ const Home = () => {
             base: 'vs-dark',
             inherit: true,
             rules: [
-                { token: 'tag', foreground: '#e258c0' },
-                { token: 'attribute.name', foreground: '#b5469a' },
+                { token: 'tag', foreground: '#855fa8' },
+                { token: 'attribute.name', foreground: '#a863a8' },
                 { token: 'attribute.value', foreground: '#ffffff' },
                 { token: 'string', foreground: '#ffffff' },
                 { token: 'delimiter.angle', foreground: '#dbbcd6' },
@@ -45,18 +45,18 @@ const Home = () => {
                 { token: 'meta.tag.script', foreground: '#775271' },
                 { token: 'meta.tag.style', foreground: '#775271' },
                 { token: 'meta.tag.xml', foreground: '#775271' },
-                { token: 'comment', foreground: '#537178' },
+                { token: 'comment', foreground: '#696a72' },
             ],
             colors: {
-                'editor.background': '#161c1c',
-                'editorSuggestWidget.background': '#161c1c',
-                'editorHoverWidget.background': '#161c1c',
-                'editorFindWidget.background': '#161c1c',
-                'editorFindWidget.input.background': '#161c1c',
+                'editor.background': '#282a36',
+                'editorSuggestWidget.background': '#282a36',
+                'editorHoverWidget.background': '#282a36',
+                'editorFindWidget.background': '#282a36',
+                'editorFindWidget.input.background': '#282a36',
                 'editor.foreground': '#dbbcd6',
                 'editor.cursorColor': '#ffffff',
-                'editor.lineHighlightBackground': '#121717',
-                'editor.selectionBackground': '#1f4953'
+                'editor.lineHighlightBackground': '#20222b',
+                'editor.selectionBackground': '#3e3f4a'
             },
         });
         monaco.editor.setTheme('vortyxTheme');
