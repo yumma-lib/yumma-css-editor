@@ -2,6 +2,10 @@
   font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
 
+body{
+  overflow-y: hidden;
+}
+
 .editor-container {
   display: flex;
   height: 100vh;
