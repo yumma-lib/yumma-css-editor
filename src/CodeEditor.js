@@ -9,8 +9,8 @@ const CodeEditor = ({ code, onChange }) => {
             rules: [
                 { token: 'tag', foreground: '#855fa8' },
                 { token: 'attribute.name', foreground: '#a863a8' },
-                { token: 'attribute.value', foreground: '#ffffff' },
-                { token: 'string', foreground: '#ffffff' },
+                { token: 'attribute.value', foreground: '#f4ebf3' },
+                { token: 'string', foreground: '#f4ebf3' },
                 { token: 'delimiter.angle', foreground: '#dbbcd6' },
                 { token: 'delimiter.curly', foreground: '#dbbcd6' },
                 { token: 'delimiter.square', foreground: '#dbbcd6' },
@@ -32,7 +32,7 @@ const CodeEditor = ({ code, onChange }) => {
                 'editorFindWidget.background': '#282a36',
                 'editorFindWidget.input.background': '#282a36',
                 'editor.foreground': '#dbbcd6',
-                'editor.cursorColor': '#ffffff',
+                'editor.cursorColor': '#f4ebf3',
                 'editor.lineHighlightBackground': '#20222b',
                 'editor.selectionBackground': '#3e3f4a'
             },
@@ -52,6 +52,7 @@ const CodeEditor = ({ code, onChange }) => {
                     enabled: false
                 }
             }}
+            
             onChange={onChange}
             onMount={handleEditorDidMount}
         />
