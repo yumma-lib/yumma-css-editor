@@ -1,18 +1,3 @@
-html, body{
-  overflow: hidden;
-}
-
-.interface {
-  display: flex;
-  height: 100vh;
-}
-
-.code-editor,
-.code-preview {
-  flex: 1;
-  overflow: auto;
-}
-
 @media (max-width: 960px) {
   .interface {
     flex-direction: column;

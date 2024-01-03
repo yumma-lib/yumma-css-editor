@@ -2,8 +2,8 @@ const Navbar = () => {
     return (
         <div>
             <nav className="nav bg-d-magenta-4">
-                <h1 className="nav-l t-white">Try Yumma CSS</h1>
-                <ul className="dis-f">
+                <h1 className="t-white">Try Yumma CSS</h1>
+                <ul className="d-f">
                     <li className="ml-1 t-white">
                         <a target="_blank" rel="noreferrer" href="https://github.com/yumma-lib/yumma-css-editor">
                             <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
@@ -15,7 +15,7 @@ const Navbar = () => {
             </nav>
 
             <main className="nav-white">
-                <ul className="dis-f">
+                <ul className="d-f">
                     <li className="ml-1 t-magenta" aria-current="page"><a href="/">Home</a></li>
                     <li className="ml-1 t-black t-h-magenta"><a target="_blank" rel="noreferrer" href="https://yummacss.vercel.app/">Docs</a></li>
                     <li className="ml-1 t-black t-h-magenta"><a target="_blank" rel="noreferrer" href="https://marketplace.visualstudio.com/items?itemName=yumma-css.yumma-css-helper">Helper</a></li>

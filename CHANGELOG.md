@@ -12,3 +12,14 @@ All notable changes to the Yumma CSS Editor will be documented in this file.
 
 ## Fixed
 - None
+
+## v0.1.0
+
+## Added
+- None
+
+## Changed
+- Classes have been updated to match the latest version.
+
+## Fixed
+- None

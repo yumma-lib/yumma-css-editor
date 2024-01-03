@@ -24,11 +24,11 @@ const Home = () => {
     };
 
     return (
-        <div className="interface">
-            <div className="code-editor">
+        <div className="interface d-f h-1/1">
+            <div className="code-editor f-1">
                 <CodeEditor code={code} onChange={onChange} />
             </div>
-            <div className="code-preview">
+            <div className="code-preview f-1 ovf-auto">
                 <CodePreview html={code} />
             </div>
         </div>
