@@ -17,8 +17,8 @@ const Navbar = () => {
             <main className="nav-white">
                 <ul className="d-f">
                     <li className="ml-1 t-magenta" aria-current="page"><a href="/">Home</a></li>
-                    <li className="ml-1 t-black t-h-magenta"><a target="_blank" rel="noreferrer" href="https://yummacss.vercel.app/">Docs</a></li>
-                    <li className="ml-1 t-black t-h-magenta"><a target="_blank" rel="noreferrer" href="https://marketplace.visualstudio.com/items?itemName=yumma-css.yumma-css-helper">Helper</a></li>
+                    <li className="ml-1 t-black h:t-magenta"><a target="_blank" rel="noreferrer" href="https://yummacss.vercel.app/">Docs</a></li>
+                    <li className="ml-1 t-black h:t-magenta"><a target="_blank" rel="noreferrer" href="https://marketplace.visualstudio.com/items?itemName=yumma-css.yumma-css-helper">Helper</a></li>
                 </ul>
             </main>
         </div>
