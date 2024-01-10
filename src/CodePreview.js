@@ -2,9 +2,9 @@ import React from 'react';
 import DOMPurify from 'dompurify';
 
 const CodePreview = ({ html }) => {
-    const sanitizedHTML = DOMPurify.sanitize(html);
+    const sanitize = DOMPurify.sanitize(html);
 
-    return <div dangerouslySetInnerHTML={{ __html: sanitizedHTML }} />;
+    return <div dangerouslySetInnerHTML={{ __html: sanitize }} />;
 };
 
 export default CodePreview;

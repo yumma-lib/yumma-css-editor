@@ -27,23 +27,24 @@ const CodeEditor = ({ code, onChange }) => {
             ],
             colors: {
                 'editor.background': '#282a36',
+                'editor.foreground': '#dbbcd6',
+                'dropdown.background': '#20222b',
+                'editorWidget.background': '#20222b',
+                'editor.cursorColor': '#f4ebf3',
+                'editor.lineHighlightBackground': '#20222b',
+                'editor.selectionBackground': '#3e3f4a',
                 'editorSuggestWidget.background': '#282a36',
                 'editorHoverWidget.background': '#282a36',
                 'editorFindWidget.background': '#282a36',
-                'editorFindWidget.input.background': '#282a36',
-                'editor.foreground': '#dbbcd6',
-                'editor.cursorColor': '#f4ebf3',
-                'editor.lineHighlightBackground': '#20222b',
-                'editor.selectionBackground': '#3e3f4a'
+                'editorFindWidget.input.background': '#282a36'
             },
         });
-        
+
         monaco.editor.setTheme('vortyx');
     };
 
     return (
         <Editor
-            height="100vh"
             language="html"
             value={code}
             options={{
@@ -52,7 +53,7 @@ const CodeEditor = ({ code, onChange }) => {
                     enabled: false
                 }
             }}
-            
+
             onChange={onChange}
             onMount={handleEditorDidMount}
         />
