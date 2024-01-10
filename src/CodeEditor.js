@@ -70,7 +70,8 @@ const CodeEditor = ({ code, onChange }) => {
                 language: 'html',
                 minimap: {
                     enabled: false
-                }
+                },
+                fontSize: 14,
             }}
 
             onChange={onChange}

@@ -1,7 +1,6 @@
 const Navbar = () => {
     return (
         <div>
-
             <main className="nav-white">
                 <p className="t-violet fw-500">Try Yumma CSS</p>
                 <ul className="d-f">
