@@ -1,5 +1,6 @@
 import React from 'react';
 import Editor from '@monaco-editor/react';
+import tags from 'html-tags';
 
 const CodeEditor = ({ code, onChange }) => {
     const handleEditorDidMount = (editor, monaco) => {
@@ -29,6 +30,7 @@ const CodeEditor = ({ code, onChange }) => {
                 'editor.background': '#282a36',
                 'editor.foreground': '#dbbcd6',
                 'dropdown.background': '#20222b',
+                'input.background': '#282a36',
                 'editorWidget.background': '#20222b',
                 'editor.cursorColor': '#f4ebf3',
                 'editor.lineHighlightBackground': '#20222b',
@@ -41,6 +43,23 @@ const CodeEditor = ({ code, onChange }) => {
         });
 
         monaco.editor.setTheme('vortyx');
+
+        const CompletionItemProvider = {
+            provideCompletionItems: () => {
+                return {
+                    suggestions: tags.map(tag => {
+                        return {
+                            label: tag,
+                            kind: monaco.languages.CompletionItemKind.Function,
+                            insertText: `<${tag}>$0</${tag}>`,
+                            insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
+                        };
+                    }),
+                };
+            },
+        };
+
+        monaco.languages.registerCompletionItemProvider('html', CompletionItemProvider);
     };
 
     return (
